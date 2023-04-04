@@ -3,7 +3,7 @@ import React from 'react'
 const Message = (props) => {
   return (
     <div>
-      <button>{()=> props.alertMyInput(`My name is `)} Click Me</button>
+    <button id ="btn" onClick= {()=> props.alertMyInput(`My name is Raboudi Farah `)}  > Click me  </button>
     </div>
   )
 }
